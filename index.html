@@ -51,7 +51,7 @@
                   <a class="nav-link" href="index.html" style="color: black;">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html" style="color: black;"> About</a>
+                  <a class="nav-link" href="#Aboutus" style="color: black; "> About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="service.html"style="color: black;"> Services </a>
@@ -187,7 +187,7 @@
 
   <!-- about section -->
 
-  <section class="about_section ">
+  <section class="about_section " id="Aboutus">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -212,7 +212,7 @@ CELLIFY bines a data driven approach with knowledge
 gained from years in digital marketing to deliver 
 outstanding results to our clients.
             </p>
-            <a href="">
+            <a href="Campaign.html">
               Read More
             </a>
           </div>
@@ -599,6 +599,17 @@ a positive image, and drive lead generation.
     <!-- footer section -->
 
   </div>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
