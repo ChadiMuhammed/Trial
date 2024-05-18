@@ -26,11 +26,14 @@
     p h1 span {
   background-color: black ; color: black ;
 }
-
+  html{
+    scroll-behavior: smooth;
+  }
   </style>
 </head>
 
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -599,16 +602,7 @@ a positive image, and drive lead generation.
 
   </div>
 
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
+
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
