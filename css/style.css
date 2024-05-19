@@ -92,8 +92,8 @@ a:focus {
   background-color: #d8bf36;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 12px;
+  border-radius: 8px;
   font-size: 18px;
 }
 
