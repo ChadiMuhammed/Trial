@@ -338,7 +338,9 @@ a:focus {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
-
+.btn-2:hover{
+  background-color:beige !important ;
+ }
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
