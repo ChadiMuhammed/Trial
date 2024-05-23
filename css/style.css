@@ -21,12 +21,12 @@ html{
   font-weight: bold;
 }
 
-.heading_container h2::before {
+.heading_container h2::before /*the dot next to the header names*/ {
   content: "";
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #d8bf36;
+  background-color: #86bfeb;
   top: 50%;
   right: -30px;
   border-radius: 100%;
@@ -73,7 +73,7 @@ html{
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link, .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  background-color: #d8bf36;
+  background-color: #85bcf7;
 }
 
 a,
@@ -81,7 +81,7 @@ a:hover,
 a:focus {
   text-decoration: none;
 }
-#myBtn {
+#myBtn /*the up to the page button*/ {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -89,7 +89,7 @@ a:focus {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #d8bf36;
+  background-color: #488ded;
   color: white;
   cursor: pointer;
   padding: 12px;
@@ -98,7 +98,7 @@ a:focus {
 }
 
 #myBtn:hover {
-  background-color: #ad9406;
+  background-color: #86bfeb;
 }
 
 
@@ -269,7 +269,7 @@ a:focus {
   background-color: #e0cd61;
 }
 
-.slider_section .detail_box .btn-box a.btn-2 {
+.slider_section .detail_box .btn-box a {
   display: inline-block;
   padding: 8px 0;
   background-color: #ffffff;
@@ -277,7 +277,7 @@ a:focus {
   border-radius: 30px;
 }
 
-.slider_section .detail_box .btn-box a.btn-2:hover {
+.slider_section .detail_box .btn-box a:hover {
   background-color: white;
 }
 
@@ -321,12 +321,12 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: center;
-  background-color: #d8bf36;
+  background-color: #488ded;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
 .slider_section .carousel_btn-container .carousel-control-next:hover {
-  background-color: #041858;
+  background-color: #86bfeb;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev {
@@ -338,8 +338,12 @@ a:focus {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
+.btn-2{
+  background-color: #488ded !important;
+}
+
 .btn-2:hover{
-  background-color:beige !important ;
+  background-color:#86bfeb !important ;
  }
 .about_section .row {
   -webkit-box-align: center;
@@ -358,14 +362,14 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #d8bf36;
+  background-color: #488ded;
   color: #ffffff;
   border-radius: 30px;
   margin: 25px 0 45px 0;
 }
 
 .about_section .detail-box a:hover {
-  background-color: #e0cd61;
+  background-color: #86bfeb ;
 }
 
 .service_section {
@@ -438,13 +442,13 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #d8bf36;
+  background-color: #488ded;
   color: #ffffff;
   border-radius: 30px;
 }
 
 .service_section .btn-box a:hover {
-  background-color: #e0cd61;
+  background-color: #86bfeb;
 }
 
 .work_section .heading_container {
@@ -512,7 +516,7 @@ a:focus {
 .work_section .btn-box a:hover {
   background-color: #e0cd61;
 }
-
+/*
 .team_section {
   text-align: center;
 }
@@ -610,7 +614,7 @@ a:focus {
 .team_section .btn-box a:hover {
   background-color: #e0cd61;
 }
-
+*/
 .client_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -660,7 +664,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center;
-  background-color: #d8bf36;
+  background-color: #488ded;
 }
 
 .client_section .carousel_btn-container .carousel-control-prev:hover,
@@ -709,7 +713,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #d8bf36;
+  background-color: #488ded;
   color: #ffffff;
   border-radius: 30px;
   text-transform: uppercase;
@@ -722,7 +726,7 @@ a:focus {
 }
 
 .contact_section button:hover {
-  background-color: #e0cd61;
+  background-color: #86bfeb;
 }
 
 .info_section {
@@ -805,7 +809,7 @@ a:focus {
   border-radius: 100%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #d8bf36;
+  background-color: #488ded;
 }
 
 .info_section .info_links ul li a:hover {
@@ -852,7 +856,7 @@ a:focus {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #d8bf36;
+  background-color: #488ded;
   color: #ffffff;
   border-radius: 5px;
   margin-top: 15px;
@@ -863,7 +867,7 @@ a:focus {
 }
 
 .info_section .info_form form button:hover {
-  background-color: #e0cd61;
+  background-color: #86bfeb;
 }
 
 .info_section .info_form .social_box {
