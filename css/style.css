@@ -1,8 +1,38 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/Fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/Fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Black.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('/Fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: bold;
+}
 html{
   scroll-behavior: smooth;
 }
-
+h1{
+  font-family: 'Montserrat';font-weight: bold;
+}
+p{
+  font-family: 'Lato';
+  font-size: large;
+}
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,7 +119,7 @@ a:focus {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #488ded;
+  background-color: #12b1c4;
   color: white;
   cursor: pointer;
   padding: 12px;
@@ -343,7 +373,7 @@ a:focus {
           transform: translateY(-10px);
 }
 .btn-2{
-  background-color: #488ded !important;
+  background-color: #12b1c4 !important;
 }
 
 .btn-2:hover{
@@ -366,7 +396,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #488ded;
+  background-color: #12b1c4;
   color: #ffffff;
   border-radius: 30px;
   margin: 25px 0 45px 0;
@@ -446,7 +476,7 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #488ded;
+  background-color: #12b1c4;
   color: #ffffff;
   border-radius: 30px;
 }
@@ -717,7 +747,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #488ded;
+  background-color: #12b1c4;
   color: #ffffff;
   border-radius: 30px;
   text-transform: uppercase;
@@ -860,7 +890,7 @@ a:focus {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #488ded;
+  background-color: #12b1c4;
   color: #ffffff;
   border-radius: 5px;
   margin-top: 15px;
